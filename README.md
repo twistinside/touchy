@@ -1,3 +1,3 @@
 # Touchy
 
-A description of this package.
+A simple low level input controller.
