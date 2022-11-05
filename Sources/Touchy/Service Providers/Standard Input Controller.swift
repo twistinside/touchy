@@ -1,7 +1,7 @@
 class TCHStandardInputController: TCHInputController {
-    var keysDown: Set<KeyboardControl> = []
+    var keysDown: Set<TCHKeyboardControl> = []
     
-    func processKeyEvent(_ key: KeyboardControl, state: InputState) {
+    func processKeyEvent(_ key: TCHKeyboardControl, state: TCHInputState) {
         if state == .began {
             keysDown.insert(key)
         }

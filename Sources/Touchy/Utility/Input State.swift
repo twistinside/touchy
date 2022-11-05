@@ -1,3 +1,3 @@
-enum InputState {
+enum TCHInputState {
     case began, cancelled, continued, ended, moved
 }

@@ -1,5 +1,5 @@
 protocol TCHInputController {
-    var keysDown: Set<KeyboardControl> { get }
+    var keysDown: Set<TCHKeyboardControl> { get }
     
-    func processKeyEvent(_ key: KeyboardControl, state: InputState)
+    func processKeyEvent(_ key: TCHKeyboardControl, state: TCHInputState)
 }
