@@ -1,4 +1,4 @@
-enum TCHKeyboardControl : UInt16 {
+public enum TCHKeyboardControl : UInt16 {
     //Special Chars
     case space      = 0x31
     case returnKey  = 0x24

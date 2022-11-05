@@ -1,7 +1,7 @@
-class TCHNullInputController: TCHInputController {
-    var keysDown: Set<TCHKeyboardControl> = []
+public class TCHNullInputController: TCHInputController {
+    public var keysDown: Set<TCHKeyboardControl> = []
     
-    func processKeyEvent(_ key: TCHKeyboardControl, state: TCHInputState) {
+    public func processKeyEvent(_ key: TCHKeyboardControl, state: TCHInputState) {
         // Do nothing
     }
 }
