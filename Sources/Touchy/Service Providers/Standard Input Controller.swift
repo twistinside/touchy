@@ -1,4 +1,4 @@
-class StandardInputController: TCHInputController {
+class TCHStandardInputController: TCHInputController {
     var keysDown: Set<KeyboardControl> = []
     
     func processKeyEvent(_ key: KeyboardControl, state: InputState) {

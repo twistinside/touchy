@@ -1,4 +1,4 @@
-class NullInputController: TCHInputController {
+class TCHNullInputController: TCHInputController {
     var keysDown: Set<KeyboardControl> = []
     
     func processKeyEvent(_ key: KeyboardControl, state: InputState) {

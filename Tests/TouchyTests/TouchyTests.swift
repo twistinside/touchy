@@ -2,9 +2,9 @@ import XCTest
 @testable import Touchy
 
 final class TouchyTests: XCTestCase {
-    let debugInputController = DebugInputController()
-    let nullInputController = NullInputController()
-    let standardInputController = StandardInputController()
+    let debugInputController = TCHDebugInputController()
+    let nullInputController = TCHNullInputController()
+    let standardInputController = TCHStandardInputController()
     
     func testSimpleDebugKeyboardInputSuccessfully() throws {
         // when

@@ -1,9 +1,9 @@
-class DebugInputController: TCHInputController {
+class TCHDebugInputController: TCHInputController {
     var keysDown: Set<KeyboardControl> {
         backingInputController.keysDown
     }
     
-    let backingInputController = StandardInputController()
+    let backingInputController = TCHStandardInputController()
     
     func processKeyEvent(_ key: KeyboardControl, state: InputState) {
         print("Key input received \(key)")
